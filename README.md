@@ -1,17 +1,17 @@
 # Ứng dụng Chuyển đổi Thời lượng Video
 ## 📋 Mục lục
-* [Giới thiệu](#-giới-thiệu)
-* [Tính năng](#-tính-năng)
-* [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
-* [Cài đặt và Chạy](#-cài-đặt-và-chạy)
-    * [Cách 1: Sử dụng phiên bản đã đóng gói (Dành cho người dùng cuối Windows)](#cách-1-sử-dụng-phiên-bản-đã-đóng-gói-dành-cho-người-dùng-cuối-windows)
-    * [Cách 2: Biên dịch từ mã nguồn (Dành cho nhà phát triển)](#cách-2-biên-dịch-từ-mã-nguồn-dành-cho-nhà-phát-triển)
-* [Cách sử dụng](#-cách-sử-dụng)
-* [Cấu trúc dự án](#-cấu-trúc-dự-án)
-* [Khắc phục sự cố thường gặp](#-khắc-phục-sự-cố-thường-gặp)
-* [Đóng góp](#-đóng-góp)
-* [Giấy phép](#-giấy-phép)
-* [Liên hệ](#-liên-hệ)
+* [Giới thiệu]
+* [Tính năng]
+* [Yêu cầu hệ thống]
+* [Cài đặt và Chạy]
+    * [Cách 1: Sử dụng phiên bản đã đóng gói (Dành cho người dùng cuối Windows)]
+    * [Cách 2: Biên dịch từ mã nguồn (Dành cho nhà phát triển)]
+* [Cách sử dụng]
+* [Cấu trúc dự án]
+* [Khắc phục sự cố thường gặp]
+* [Đóng góp]
+* [Giấy phép]
+* [Liên hệ]
 ---
 ##  Giới thiệu
 Đây là một ứng dụng desktop đơn giản, trực quan được phát triển bằng ngôn ngữ C kết hợp với thư viện đồ họa GTK+ 3. Ứng dụng này cung cấp một công cụ tiện lợi để tính toán thời lượng cuối cùng của một video sau khi được tua nhanh ở các hệ số khác nhau (x1.2, x1.5, x1.8, và x2.0).

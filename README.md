@@ -51,8 +51,11 @@ Mục tiêu của dự án là giúp người dùng dễ dàng ước tính th�
 4.  Ứng dụng sẽ tự động chuyển sang tab "Thời lượng Gốc" và tạo ra các tab mới, mỗi tab hiển thị thời lượng video sau khi được tua nhanh ở tốc độ cụ thể ($x1.2$, $x1.5$, $x1.8$, và $x2.0$).
 ##  Cấu trúc dự án
  video_converter_gtk.c  # Mã nguồn chính của ứng dụng
+ 
  README.md              # Tệp tài liệu này
+ 
 .gitignore             # Các quy tắc bỏ qua tệp của Git (ví dụ: tệp thực thi, đối tượng biên dịch)
+
  LICENSE                # (Nếu có) Thông tin giấy phép của dự án
 ## Khắc phục sự cố thường gặp
 * **Lỗi `gcc: command not found` hoặc `pkg-config: command not found`:**

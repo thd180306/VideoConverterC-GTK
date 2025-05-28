@@ -1,10 +1,5 @@
                                                                                     # Ứng dụng Chuyển đổi Thời lượng Video
-
-![Giao diện Ứng dụng Chuyển đổi Video](https://i.imgur.com/your_app_screenshot_here.png)
-_Bạn có thể thay thế liên kết này bằng ảnh chụp màn hình ứng dụng của mình (ví dụ: tải ảnh lên Imgur hoặc GitHub và dán liên kết vào đây)._
-
 ## 📋 Mục lục
-
 * [Giới thiệu](#-giới-thiệu)
 * [Tính năng](#-tính-năng)
 * [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
@@ -43,7 +38,7 @@ Mục tiêu của dự án là giúp người dùng dễ dàng ước tính th�
 ### Cách 1: Sử dụng phiên bản đã đóng gói (Dành cho người dùng cuối Windows)
 Đây là cách dễ nhất để chạy ứng dụng mà không cần cài đặt bất kỳ công cụ phát triển nào.
 1.  **Tải xuống**:
-    * Truy cập trang [Releases của dự án này trên GitHub](https://github.com/TênTàiKhoảnCủaBạn/TênRepositoryCủaBạn/releases) (thay thế `TênTàiKhoảnCủaBạn/TênRepositoryCủaBạn` bằng thông tin của bạn).
+    * Truy cập trang [https://github.com/thd180306/VideoConverterC-GTK].
     * Tải xuống tệp `.zip` mới nhất có tên dạng `video_converter_gtk_windows_vX.Y.Z.zip` (hoặc tương tự).
 2.  **Giải nén**:
     * Giải nén toàn bộ nội dung của tệp `.zip` vào một thư mục bất kỳ trên máy tính của bạn (ví dụ: `C:\Apps\VideoConverter`).
@@ -55,10 +50,10 @@ Mục tiêu của dự án là giúp người dùng dễ dàng ước tính th�
 3.  Nhấp vào nút **"Tính toán Thời lượng Tua nhanh"**.
 4.  Ứng dụng sẽ tự động chuyển sang tab "Thời lượng Gốc" và tạo ra các tab mới, mỗi tab hiển thị thời lượng video sau khi được tua nhanh ở tốc độ cụ thể ($x1.2$, $x1.5$, $x1.8$, và $x2.0$).
 ##  Cấu trúc dự án
-├── video_converter_gtk.c  # Mã nguồn chính của ứng dụng
-├── README.md              # Tệp tài liệu này
-├── .gitignore             # Các quy tắc bỏ qua tệp của Git (ví dụ: tệp thực thi, đối tượng biên dịch)
-└── LICENSE                # (Nếu có) Thông tin giấy phép của dự án
+ video_converter_gtk.c  # Mã nguồn chính của ứng dụng
+ README.md              # Tệp tài liệu này
+.gitignore             # Các quy tắc bỏ qua tệp của Git (ví dụ: tệp thực thi, đối tượng biên dịch)
+ LICENSE                # (Nếu có) Thông tin giấy phép của dự án
 ## Khắc phục sự cố thường gặp
 * **Lỗi `gcc: command not found` hoặc `pkg-config: command not found`:**
     * Đảm bảo bạn đang sử dụng **"MSYS2 MinGW 64-bit Terminal"** trên Windows.
